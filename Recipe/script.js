@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	console.log("Script included!");
 	$('ul li').click(function(){
 		$(this).addClass('done');
 	});
