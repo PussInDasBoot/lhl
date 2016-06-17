@@ -1,18 +1,6 @@
 $(document).ready(function(){
-	$('ul li').click(function(){
+	$('.ingredients li').click(function(){
 		$(this).addClass('done');
-	});
-	$(".button").click(function(){
-		$(this).addClass('done');
-	})
-	$("img").hover(
-		function(){
-		$(this).after($("<span>Click to hide image</span>"));
-	}, function(){
-		$(this).next("span:last").remove();
-	});
-	$("img").click(function(){
-		$(this).hide();
 	});
 	$(".toggle-images").click(function() {
 		$("img").toggle();
